@@ -6,7 +6,7 @@
   #video-background {
     position: absolute;
     width: 85%; /*largura*/
-    height: 33%; /*altura*/
+    height: 260px; /*altura*/
     object-fit: cover; /*cobre completamente a tela*/
     z-index: 1; /*manda para trás de tudo*/
     opacity: 0.9;
@@ -19,12 +19,12 @@
   
 .content {
     width: 85%;
-    height: 30%;
+    height: 35%;
     position: absolute;
     display: flex;
     justify-content: space-around;
     z-index: 99;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .content img{
@@ -38,4 +38,5 @@
 .content img:hover{
     transform: scale(1.1);
     opacity: 1.1;
+    box-shadow: 5px 5px 40px 7px rgb(163, 60, 60);
 }
